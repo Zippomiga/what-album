@@ -1,0 +1,42 @@
+.filter-albums-title {
+	color: var(--almost-white);
+	text-align: center;
+}
+
+.albums-list {
+	display: grid;
+	gap: 0.4rem;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin: 0.4rem;
+}
+
+.buttons {
+	display: flex;
+	justify-content: space-between;
+	margin: 2rem;
+}
+
+.buttons button:active {
+	transform: scale(0.99);
+}
+
+
+@media screen and (max-width: 425px) {
+	.filter-albums-title {
+		font-size: 1.1rem;
+		margin-top: 4rem;
+		margin-bottom: 1rem;
+	}
+
+	.albums-list {
+		display: flex;
+		flex-direction: column;
+		margin: auto;
+		width: 90%;
+	}
+
+	.buttons {
+		justify-content: space-around;
+		margin: 1rem 0;
+	}
+}

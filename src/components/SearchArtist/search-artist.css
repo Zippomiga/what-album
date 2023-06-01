@@ -1,0 +1,66 @@
+.search-artist-title {
+	color: var(--almost-white);
+	text-align: center;
+}
+
+.form-container {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.form-input {
+	border: 1px solid orange;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 2rem;
+	width: 60%;
+}
+
+.input-insert-URL {
+	background: var(--almost-white);
+	border: none;
+	color: #000;
+	font-size: 1.2rem;
+	outline: transparent;
+	padding: 0.6rem;
+	text-align: center;
+	width: 85%;
+}
+
+.input-insert-URL::placeholder {
+	color: rgba(255, 166, 0, 0.541);
+}
+
+.instruction {
+	color: var(--almost-white);
+	margin-bottom: 1rem;
+}
+
+.illustration {
+	box-shadow: 0 0 0.4rem #000;
+}
+
+
+@media screen and (max-width: 425px) {
+	.search-artist-title {
+		font-size: 1.4rem;
+	}
+
+	.form-input {
+		width: 90%;
+	}
+
+	.input-insert-URL {
+		font-size: 1rem;
+		padding: 0.5rem;
+	}
+
+	.instruction {
+		margin-bottom: 2rem;
+	}
+
+	.illustration {
+		width: 90%;
+	}
+}

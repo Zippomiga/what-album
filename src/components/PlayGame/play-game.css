@@ -1,0 +1,32 @@
+main {
+	background: url(../../assets/bg-vynil.jpg);
+	background-attachment: fixed;
+	background-color: #595959;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100vh;
+}
+
+
+.albums-container {
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: repeat(4, 1fr);
+	margin: auto;
+	padding-top: 1rem;
+	width: 75%;
+}
+
+
+@media screen and (max-width: 425px) {
+	main {
+		background: #101010;
+	}
+
+.albums-container {
+	gap: 0.5rem;
+	grid-template-columns: 100%;
+	padding-top: 4rem;
+	width: 95%;
+}
+}

@@ -1,0 +1,65 @@
+.sign {
+  background-color: #000000cc;
+  color: #fff;
+  display: grid;
+  height: 100vh;
+  left: 0;
+  place-items: center;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100vw;
+}
+
+.win {
+  box-shadow: 0 0 12px #00ff7f;
+  outline: 1px solid #00ff7f;
+}
+
+.lose {
+  box-shadow: 0 0 12px var(--main-color);
+  outline: 1px solid var(--main-color);
+}
+
+.message {
+  align-items: center;
+  background-color: #101010;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.8rem;
+  height: 12rem;
+  justify-content: space-evenly;
+  line-height: 2.8rem;
+  width: 20rem;
+}
+
+.btn-win-lose {
+  background: transparent;
+  border: none;
+  border-radius: 4px;
+  color: #ffa500;
+  font-size: 1rem;
+  padding: 8px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  transition: 0.2s;
+}
+
+.btn-win-lose:hover {
+  box-shadow: 0 0 6px #ffa500;
+  background-color: #ffa500;
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-win-lose:active {
+  transform: scale(0.95);
+}
+
+@media screen and (max-width: 425px) {
+  .message {
+    width: 14rem;
+  }  
+}

@@ -1,0 +1,28 @@
+.media-player {
+	border-radius: 12px;
+	box-shadow: 0 0 2px #000;
+	margin: 4rem auto 0 auto;
+	height: 5rem;
+	position: relative;
+	width: 50rem;
+}
+
+.media-player-mask {
+	height: 1.9rem;
+	position: absolute;
+	right: 0;
+	width: 1.9rem;
+	z-index: 1;
+}
+
+.media-player-spotify {
+	display: flex;
+	width: 100%;
+}
+
+@media screen and (max-width: 425px) {
+	.media-player {
+		width: 97%;
+		margin: 1rem auto 0 auto;
+	}
+}
