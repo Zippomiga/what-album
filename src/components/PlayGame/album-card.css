@@ -1,7 +1,9 @@
 .album-card {
   align-items: center;
-  background-color: #282828;
-  box-shadow: 0 0 0.2rem #000;
+  border-radius: 8px;
+  overflow: hidden;
+  /* background-color: #000000; */
+  border: 1px solid rgba(255, 166, 0, 0.5);
   color: var(--almost-white);
   display: flex;
   flex-direction: column;
@@ -10,7 +12,9 @@
 }
 
 .album-card:hover {
-  color: #ffa500;
+  background-color: #ffa600;
+  border-color: #ffa600;
+  color: #000;
   cursor: pointer;
   transform: scale(1.01);
 }

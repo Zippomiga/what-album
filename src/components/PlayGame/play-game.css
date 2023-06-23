@@ -1,9 +1,9 @@
 main {
-	background: url(../../assets/bg-vynil.jpg);
-	background-attachment: fixed;
-	background-color: #595959;
-	background-repeat: no-repeat;
-	background-size: contain;
+	/* background: url(../../assets/bg-vynil.jpg); */
+	/* background-attachment: fixed; */
+	background-color: #110211;
+	/* background-repeat: no-repeat; */
+	/* background-size: contain; */
 	height: 100vh;
 }
 
